@@ -1,62 +1,73 @@
-# Egocentric Data Pipeline
+# Egopet Dataset
+### [Amir Bar*](https://amirbar.net), [Danny Tran*](), [Arya Bakhtiar*](), [Trevor Darrell](https://people.eecs.berkeley.edu/~trevor/)
 
-## Overview
+This repository contains the implementation of the EgoPet research paper. For more information about this work, please visit the [Project Page](link-to-project-page). Explore our visual prompting demo in this Jupyter notebook: [demo.ipynb](demo.ipynb).
 
-This project represents a unique exploration into the world as perceived by common domestic animals such as dogs, cats, and others. By analyzing videos captured from cameras attached to these animals, the project aims to understand their perspective and behavior in various environments. Leveraging computer vision techniques, this research provides invaluable insights into animal-human interactions, spatial awareness, and general animal behavior.
+## Abstract
 
-## Features
+Animals are intelligent agents that exhibit various cognitive and behavioral traits. They plan and act to accomplish complex tasks, and they can interact with other agents or objects. Despite remarkable progress in AI, learning to understand the world as well as a cat remains a challenge. We argue that one major limitation towards achieving this goal is the lack of data. To address this, we introduce EgoPet, a new extensive dataset featuring over 84 hours of egocentric videos of animals, including dogs, cats, eagles, turtles, and others, sourced from YouTube and TikTok.\footnote{While we did not restrict our data collection to pets, our methodology led to a dataset that primarily consists of pets, so we named it EgoPet.} Together with this dataset, we propose two tasks with annotated data: Visual Interaction Prediction (VIP) and Vision to Proprioception Prediction (VPP), aimed at both perception and action. Compared to other datasets, models pretrained on EgoPet perform better on VIP and VPP.
 
-- **Egocentric Perspective Analysis**: Exploration of videos from an animal's viewpoint to understand their interactions and behaviors.
-- **Data Pre-processing**: Custom scripts to perform pre-processing on raw video footage, preparing it for further analysis.
-- **Video Cleaning**: Algorithms to filter and clean the video data, eliminating noise and irrelevant information.
-- **Data Extraction**: Extraction of essential data based on URLs and human-made annotations, enabling a focused analysis on key aspects.
-- **Computer Vision Integration**: Utilization of state-of-the-art computer vision techniques to extract meaningful patterns and insights.
+## Introduction
+The Egopet Dataset is an extensive collection of egocentric videos of animals sourced from YouTube and TikTok. It features over 84 hours of footage, including various animals such as dogs, cats, eagles, turtles, and more. Along with the dataset, this repository provides code for processing the videos and performing tasks like Visual Interaction Prediction (VIP) and Vision to Proprioception Prediction (VPP).
 
-## Components
+## Dependencies and Prerequisites
 
-1. **Jupyter Notebooks**: A series of Jupyter notebooks have been created to guide through the different stages of analysis, from data pre-processing to visualization.
+Ensure you have the following dependencies installed before running the code:
 
-2. **Python Scripts**: Custom Python scripts designed for specific tasks such as pre-processing, cleaning, data extraction, and analysis.
+- Python 3.9
+- ffmpeg (for video processing)
+- yt-dlp (a youtube-dl fork for downloading videos)
+- Additional Python packages as listed in `requirements.txt`
 
-### Jupyter Notebook Workflow
+### Installation
 
-1. Cleaning Egocentric View of Animal Excel Spreedsheet.ipynb
-2. Export Video URLs File Generation.ipynb
-3. Analyze yt-dlp JSON ouputfiles.ipynb
-4. Analysis of Frame Differences in Video Files.ipynb
+1. Install Python 3.9.
+2. Install ffmpeg: `sudo apt-get install ffmpeg`
+3. Install yt-dlp and other Python dependencies:
 
-### Python Files
+```
+pip install yt-dlp
+pip install -r requirements.txt
+git clone https://github.com/ytdl-org/youtube-dl.git
+```
 
-- download_videos.py
-- video_frame_analysis.py
+## Dataset Download and Preparation
 
-## Installation
+To download and prepare the EgoPet Dataset, follow these steps:
 
-Detailed instructions on how to install and run the scripts are provided in the repository. Required dependencies and recommended environments are also listed.
+1. Clone the YouTube-DL repository:
+2. Install yt-dlp and the required Python packages from `requirements.txt`.
+
+### Input
+
+The dataset processing scripts require an input Excel spreadsheet (`egopet_dataset_spreadsheet.xlsx`) containing video details such as URLs, availability, and segment information.
+
+### Output
+
+Processed videos are saved in the `edited_downloaded_videos` directory, with each video file prefixed with "edited_" in its filename.
 
 ## Usage
 
-Users can run the Jupyter notebooks sequentially to visualize the process or directly use the Python scripts for specific tasks related to video analysis.
+To process the dataset, execute the `download_egopet_dataset.py` script. Ensure the input spreadsheet is correctly set up and all dependencies are installed.
 
-## Data 
+**Note**: the paper sources are hosted by arXiv and download time might take 2-3 days. <br>For inquiries/questions about this please email the authors directly.  
 
-The data consists of videos where cameras were attached to domestic animals, capturing their daily interactions and behaviors. Annotations provided by human observers further enrich the dataset.
+## Data
 
-- [Egocentric View of Dog and Cats Google Spreed sheet](https://docs.google.com/spreadsheets/d/15j25iuQCUSQKwYHglYmmIFcP8ZR3LmNJ/edit#gid=762485917)
-- [json_figures](https://drive.google.com/drive/u/1/folders/1hyjrimIPSVJc3zDZt1C5JP8_vt0izyIL)
-- [json_files](https://drive.google.com/drive/u/1/folders/1qZiiL2IuHTKC37Ujxvj3APTbyY7zOQJ7)
-- [MP4_files](https://drive.google.com/drive/u/1/folders/1KA5KB8mTYRxOBMQz5ruFh10OqBxPoYcX])
-- tiktok_urls.txt
-- youtube_urls.txt
-- edited_egocentric.xlsx
-- edited_egocentric.csv
+1. Download the full dataset as described [here](data/dataset.md)
 
-## Contribution
 
-## License
+### Reference
+If you found this code useful, please cite the following paper:
 
-## Acknowledgments
 
-Special thanks to all contributors and those who have made this unique perspective of understanding our beloved pets possible.
-
----
+```
+@InProceedings{ginosar2019gestures,
+  author={A. Bar and D. Tran and A. Bakhtiar},
+  title = {EgoPet: A pet’s-eye view of the world for learning animal behavior},
+  booktitle = {Computer Vision and Pattern Recognition (CVPR)}
+  publisher = {IEEE},
+  year={2024},
+  month=jun
+}
+```
