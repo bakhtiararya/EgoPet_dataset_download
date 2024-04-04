@@ -23,7 +23,49 @@ The dataset processing scripts require an input Excel spreadsheet (`egopet_datas
 
 ### Output
 
-Processed videos are saved in the `edited_downloaded_videos` directory, with each video file prefixed with "edited_" in its filename.
+Processed videos are saved in the `edited_downloaded_videos` directory, with each video file prefixed with "edited_" in its filename. By the end, the folder structure should look like something below
+
+```
+edited_downloaded_videos/
+│
+├── train/
+│   ├── cat/
+│   │   ├── cat1.mp4
+│   │   ├── cat2.mp4
+│   │   └── ...
+│   │
+│   ├── dog/
+│   │   ├── dog1.mp4
+│   │   ├── dog2.mp4
+│   │   └── ...
+│   │
+│   ├── elephant/
+│   │   ├── elephant1.mp4
+│   │   └── ...
+│   │
+│   └── ... (other animal folders)
+│
+└── validation/
+    ├── cat/
+    │   ├── cat1.mp4
+    │   ├── cat2.mp4
+    │   └── ...
+    │
+    ├── dog/
+    │   ├── dog1.mp4
+    │   ├── dog2.mp4
+    │   └── ...
+    │
+    ├── elephant/
+    │   ├── elephant1.mp4
+    │   └── ...
+    │
+    └── ... (other animal folders)
+```
+
+
+
+
 
 ## Abstract
 
