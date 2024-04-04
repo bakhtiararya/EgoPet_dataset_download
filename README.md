@@ -7,9 +7,11 @@ This repository contains the implementation of the EgoPet research paper. For mo
 
 To download and prepare the EgoPet Dataset, follow these steps:
 
-1. Clone the YouTube-DL repository:
-2. Install yt-dlp and the required Python packages from `requirements.txt`.
-3. Run the following command in the terminal. This process may take awhile (> 3 hours)
+1. Install all dependencies
+2. Clone the YouTube-DL repository:
+3. Install yt-dlp and the required Python packages from `requirements.txt`.
+4. Clone this repository  
+6. Run the following command in the terminal. This process may take awhile (> 3 hours)
 
 ```
 python download_egopet_datatset.py
