@@ -52,11 +52,6 @@ To process the dataset, execute the `download_egopet_dataset.py` script. Ensure 
 
 **Note**: the paper sources are hosted by arXiv and download time might take 2-3 days. <br>For inquiries/questions about this please email the authors directly.  
 
-## Data
-
-1. Download the full dataset as described [here](data/dataset.md)
-
-
 ### Reference
 If you found this code useful, please cite the following paper:
 
