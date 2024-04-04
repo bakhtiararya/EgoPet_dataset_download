@@ -1,9 +1,22 @@
 # Egopet Dataset
 ### [Amir Bar*](https://amirbar.net), [Arya Bakhtiar*](), [Danny Tran*](), [Antonio Loquercio](https://antonilo.github.io/), [Jathushan Rajasegaran](https://people.eecs.berkeley.edu/~jathushan/), [Yann LeCun](https://engineering.nyu.edu/faculty/yann-lecun), [Trevor Darrell](https://people.eecs.berkeley.edu/~trevor/), [Amir Globerson](https://cs3801.wixsite.com/amirgloberson)
 
-
-
 This repository contains the implementation of the EgoPet research paper. For more information about this work, please visit the [Project Page](link-to-project-page). Explore our visual prompting demo in this Jupyter notebook: [demo.ipynb](demo.ipynb).
+
+## Dataset Download and Preparation
+
+To download and prepare the EgoPet Dataset, follow these steps:
+
+1. Clone the YouTube-DL repository:
+2. Install yt-dlp and the required Python packages from `requirements.txt`.
+
+### Input
+
+The dataset processing scripts require an input Excel spreadsheet (`egopet_dataset_spreadsheet.xlsx`) containing video details such as URLs, availability, and segment information.
+
+### Output
+
+Processed videos are saved in the `edited_downloaded_videos` directory, with each video file prefixed with "edited_" in its filename.
 
 ## Abstract
 
@@ -32,21 +45,6 @@ pip install yt-dlp
 pip install -r requirements.txt
 git clone https://github.com/ytdl-org/youtube-dl.git
 ```
-
-## Dataset Download and Preparation
-
-To download and prepare the EgoPet Dataset, follow these steps:
-
-1. Clone the YouTube-DL repository:
-2. Install yt-dlp and the required Python packages from `requirements.txt`.
-
-### Input
-
-The dataset processing scripts require an input Excel spreadsheet (`egopet_dataset_spreadsheet.xlsx`) containing video details such as URLs, availability, and segment information.
-
-### Output
-
-Processed videos are saved in the `edited_downloaded_videos` directory, with each video file prefixed with "edited_" in its filename.
 
 ## Usage
 
