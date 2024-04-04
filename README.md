@@ -21,7 +21,7 @@ python download_egopet_datatset.py
 
 The dataset processing scripts require an input Excel spreadsheet (`egopet_dataset_spreadsheet.xlsx`) containing video details such as URLs, availability, and segment information.
 
-### Output
+### Output format
 
 Processed videos are saved in the `edited_downloaded_videos` directory, with each video file prefixed with "edited_" in its filename. By the end, the folder structure should look like something below
 
