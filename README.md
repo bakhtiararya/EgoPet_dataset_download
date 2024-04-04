@@ -63,11 +63,14 @@ If you found this code useful, please cite the following paper:
 
 ```
 @InProceedings{ginosar2019gestures,
-  author={A. Bar and D. Tran and A. Bakhtiar},
-  title = {EgoPet: A pet’s-eye view of the world for learning animal behavior},
-  booktitle = {Computer Vision and Pattern Recognition (CVPR)}
+  author={A. Bar, A. Bakhtiar, D. Tran, A. Loquercio, J. Rajasegaran, Y. LeCun, T. Darrell, and A. Globerson},
+  title = {EgoPet: Egomotion and Interaction Data from an
+Animal’s Perspective},
+  booktitle = {European Conference on Computer Vision (ECCV)}
   publisher = {IEEE},
   year={2024},
   month=jun
 }
 ```
+
+ 
