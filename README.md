@@ -9,6 +9,11 @@ To download and prepare the EgoPet Dataset, follow these steps:
 
 1. Clone the YouTube-DL repository:
 2. Install yt-dlp and the required Python packages from `requirements.txt`.
+3. Run the following command in the terminal
+
+```
+python download_egopet_datatset.py
+```
 
 ### Input
 
