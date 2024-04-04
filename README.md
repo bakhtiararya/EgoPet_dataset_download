@@ -1,5 +1,5 @@
 # Egopet Dataset
-    ### [Amir Bar*](https://amirbar.net), [Arya Bakhtiar*](), [Danny Tran*](), [Antonio Loquercio](https://antonilo.github.io/), [Jathushan Rajasegaran](https://people.eecs.berkeley.edu/~jathushan/), [Yann LeCun](https://engineering.nyu.edu/faculty/yann-lecun), [Trevor Darrell](https://people.eecs.berkeley.edu/~trevor/), [Amir Globerson](https://cs3801.wixsite.com/amirgloberson)
+### [Amir Bar*](https://amirbar.net), [Arya Bakhtiar*](), [Danny Tran*](), [Antonio Loquercio](https://antonilo.github.io/), [Jathushan Rajasegaran](https://people.eecs.berkeley.edu/~jathushan/), [Yann LeCun](https://engineering.nyu.edu/faculty/yann-lecun), [Trevor Darrell](https://people.eecs.berkeley.edu/~trevor/), [Amir Globerson](https://cs3801.wixsite.com/amirgloberson)
 
 
 
