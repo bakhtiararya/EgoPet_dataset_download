@@ -18,7 +18,8 @@ Ensure you have the following dependencies installed before running the code:
 
 1. Install Python 3.9.
 2. Install ffmpeg: `sudo apt-get install ffmpeg`
-3. Install yt-dlp and other Python dependencies:
+3. Install yt-dlp
+4. Install required Python packages from `requirements.txt`.
 
 ```
 pip install yt-dlp
@@ -30,9 +31,7 @@ git clone https://github.com/ytdl-org/youtube-dl.git
 
 To download and prepare the EgoPet Dataset, follow these steps:
 
-1. Install all dependencies
-2. Clone the YouTube-DL repository:
-3. Install yt-dlp and the required Python packages from `requirements.txt`.
+1. Install all dependencies from previous section 
 4. Clone this repository  
 6. Run the following command in the terminal. This process may take awhile (> 3 hours)
 
