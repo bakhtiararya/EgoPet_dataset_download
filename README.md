@@ -32,8 +32,8 @@ git clone https://github.com/ytdl-org/youtube-dl.git
 To download and prepare the EgoPet Dataset, follow these steps:
 
 1. Install all dependencies from previous section 
-4. Clone this repository  
-6. Run the following command in the terminal. This process may take awhile (> 3 hours)
+2. Clone this repository  
+3. Run the following command in the terminal. This process may take awhile (> 3 hours)
 
 ```
 python download_egopet_datatset.py
