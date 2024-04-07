@@ -39,6 +39,8 @@ To download and prepare the EgoPet Dataset, follow these steps:
 python download_egopet_datatset.py
 ```
 
+## Example Structure 
+
 ### Input
 
 The dataset processing scripts require an input Excel spreadsheet (`egopet_dataset_spreadsheet.xlsx`) containing video details such as URLs, availability, and segment information.
