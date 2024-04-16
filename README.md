@@ -64,7 +64,7 @@ Processed videos are saved in the `edited_downloaded_videos` directory, with eac
 │   ├── download_egopet_datatset.py
 │   ├── egopet_dataset_spreadsheet.xlsx
 │   ├── requirements.txt
-│   └── edited_downloaded_videos
+│   └── classifier_train_and_validation_video_set
 │       ├── train
 │       │   ├── cat
 │       │   │   ├── edited_0a47448b479faca78b65f7d39d04b77a1ee4c55ef8154fb24061038c7b381761_segment_1.mp4
