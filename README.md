@@ -1,7 +1,7 @@
 # Egopet Dataset
 ### [Amir Bar](https://amirbar.net), [Arya Bakhtiar](), [Antonio Loquercio](https://antonilo.github.io/), [Jathushan Rajasegaran](https://people.eecs.berkeley.edu/~jathushan/), [Danny Tran](), [Yann LeCun](https://yann.lecun.com/), [Amir Globerson](http://www.cs.tau.ac.il/~gamir/), [Trevor Darrell](https://people.eecs.berkeley.edu/~trevor/)
 
-This repository contains the implementation of the EgoPet research paper. For more information about this work, please visit the [Project Page](link-to-project-page).
+This repository contains the implementation of the EgoPet research paper. For more information about this work, please visit the [Project Page](www.amirbar.net/egopet).
 
 ## Abstract
 
@@ -94,6 +94,10 @@ Processed videos are saved in the `edited_downloaded_videos` directory, with eac
 │           └── ... (other animal folders)
 └── EgoPet_dataset_download-main.zip
 ```
+
+## Acknowledgements
+
+This project is built upon [MVD](https://github.com/ruiwang2021/mvd/tree/main), [MAE_ST](https://github.com/facebookresearch/mae_st), and [DPVO](https://github.com/princeton-vl/DPVO). Thank you to the contributors of these codebases!
 
 ### Reference
 If you found this code useful, please cite the following paper:
