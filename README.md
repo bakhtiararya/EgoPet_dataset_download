@@ -99,7 +99,7 @@ Processed videos are saved in the `edited_downloaded_videos` directory, with eac
 
 This project is built upon [MVD](https://github.com/ruiwang2021/mvd/tree/main), [MAE_ST](https://github.com/facebookresearch/mae_st), and [DPVO](https://github.com/princeton-vl/DPVO). Thank you to the contributors of these codebases!
 
-### Reference
+## Reference
 If you found this code useful, please cite the following paper:
 
 ```
