@@ -29,6 +29,10 @@ git clone https://github.com/ytdl-org/youtube-dl.git
 
 ## Download Data
 
+### Option 1: Direct download for academic use
+
+### Option 2: Download videos from TikTok and YouTube
+
 To download and prepare the EgoPet Dataset, follow these steps:
 
 1. Install all dependencies from previous section 
@@ -93,12 +97,12 @@ If you found this code useful, please cite the following paper:
 ```
 @InProceedings{ginosar2019gestures,
   author={A. Bar, A. Bakhtiar, D. Tran, A. Loquercio, J. Rajasegaran, Y. LeCun, T. Darrell, and A. Globerson},
-  title = {EgoPet: Egomotion and Interaction Data from an
-Animal’s Perspective},
-  booktitle = {European Conference on Computer Vision (ECCV)}
-  publisher = {IEEE},
+  title = {EgoPet: Egomotion and Interaction Data from an Animal’s Perspective},
+  booktitle = {}
+  publisher = {},
   year={2024},
-  month=jun
+  month=,
+  url={www.amirbar.net/egopet}
 }
 ```
 
