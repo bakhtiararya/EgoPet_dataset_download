@@ -31,7 +31,11 @@ git clone https://github.com/ytdl-org/youtube-dl.git
 
 ### Option 1: Direct download for academic use
 
-### Option 2: Download videos from TikTok and YouTube
+Please follow the link below to fill out the Google forum to request acess to the dataset. You can ignore the remainder of the installation instructions below afterwards if you choose this option. 
+
+(Request access)[https://docs.google.com/forms/d/e/1FAIpQLSdWdutL6VwkFTmoRanpry24ssZicr1ROvyY8rduLWJuPF6-2Q/viewform?usp=pp_url]
+
+### Option 2: Download videos from TikTok and YouTube 
 
 To download and prepare the EgoPet Dataset, follow these steps:
 
