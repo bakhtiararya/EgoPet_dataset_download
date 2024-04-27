@@ -103,14 +103,11 @@ This project is built upon [MVD](https://github.com/ruiwang2021/mvd/tree/main), 
 If you found this code useful, please cite the following paper:
 
 ```
-@InProceedings{ginosar2019gestures,
-  author={A. Bar, A. Bakhtiar, D. Tran, A. Loquercio, J. Rajasegaran, Y. LeCun, T. Darrell, and A. Globerson},
-  title = {EgoPet: Egomotion and Interaction Data from an Animal’s Perspective},
-  booktitle = {}
-  publisher = {},
-  year={2024},
-  month=,
-  url={www.amirbar.net/egopet}
+@article{bar2024egopet,
+  title={EgoPet: Egomotion and Interaction Data from an Animal's Perspective},
+  author={Bar, Amir and Bakhtiar, Arya and Tran, Danny and Loquercio, Antonio and Rajasegaran, Jathushan and LeCun, Yann and Globerson, Amir and Darrell, Trevor},
+  journal={arXiv preprint arXiv:2404.09991},
+  year={2024}
 }
 ```
 
