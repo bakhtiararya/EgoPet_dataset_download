@@ -58,12 +58,9 @@ Processed videos are saved in the `edited_downloaded_videos` directory, with eac
 
 ```
 .
-├── EgoPet_dataset_download-main
-│   ├── README.md
-│   ├── download_egopet_datatset.py
+├── EgoPet
 │   ├── egopet_dataset_spreadsheet.xlsx
-│   ├── requirements.txt
-│   └── classifier_train_and_validation_video_set
+│   └── training_and_validation_test_set
 │       ├── train
 │       │   ├── cat
 │       │   │   ├── edited_0a47448b479faca78b65f7d39d04b77a1ee4c55ef8154fb24061038c7b381761_segment_1.mp4
@@ -72,10 +69,6 @@ Processed videos are saved in the `edited_downloaded_videos` directory, with eac
 │       │   ├── dog
 │       │   │   ├── edited_0e4b23e072ec674d5ece872d3558d52e5794fb27fa5e0780de58a10bad56ad5b_segment_078.mp4
 │       │   │   ├── edited_0e4b23e072ec674d5ece872d3558d52e5794fb27fa5e0780de58a10bad56ad5b_segment_080.mp4
-│       │   │   └── ...
-│       │   ├── snake
-│       │   │   ├── edited_2c14aa00e7448d4d11799f3d58962f4b4f82efa4300e2134a04e86efa6aca8d7_segment_3.mp4
-│       │   │   ├── edited_2c14aa00e7448d4d11799f3d58962f4b4f82efa4300e2134a04e86efa6aca8d7_segment_9.mp4
 │       │   │   └── ...
 │       │   └── ... (other animal folders)
 │       └── validation
@@ -87,16 +80,9 @@ Processed videos are saved in the `edited_downloaded_videos` directory, with eac
 │           │   ├── edited_3ef180ebd7674cf9e4f9dd736cc72d1cf20f978b4a70a0843e61319565774911_segment_5.mp4
 │           │   ├── edited_3ef180ebd7674cf9e4f9dd736cc72d1cf20f978b4a70a0843e61319565774911_segment_6.mp4
 │           │   └── ...
-│           ├── eagle
-│           │   ├── edited_44e62a242eeea6616cccb60f884f2ad6c141193b50ad00581fc17039b4dbf339_segment_9.mp4
-│           │   └── ...
 │           └── ... (other animal folders)
-└── EgoPet_dataset_download-main.zip
 ```
 
-## Acknowledgements
-
-This project is built upon [MVD](https://github.com/ruiwang2021/mvd/tree/main), [MAE_ST](https://github.com/facebookresearch/mae_st), and [DPVO](https://github.com/princeton-vl/DPVO). Thank you to the contributors of these codebases!
 
 ## Reference
 If you found this code useful, please cite the following paper:
