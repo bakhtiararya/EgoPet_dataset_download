@@ -7,7 +7,17 @@ This repository contains the implementation of the EgoPet research paper. For mo
 
 Animals perceive the world to plan their actions and interact with other agents to accomplish complex tasks, demonstrating capabilities that are still unmatched by AI systems. To advance our understanding and reduce the gap between the capabilities of animals and AI systems, we introduce a dataset of pet egomotion imagery with diverse examples of simultaneous egomotion and multi-agent interaction. Current video datasets separately contain egomotion and interaction examples, but rarely both at the same time. In addition, EgoPet offers a radically distinct perspective from existing egocentric datasets of humans or vehicles.  We define two in-domain benchmark tasks that capture animal behavior, and a third benchmark to assess the utility of EgoPet as a pretraining resource to robotic quadruped locomotion, showing that models trained from EgoPet outperform those trained from prior datasets. This work provides evidence that today's pets could be a valuable resource for training future AI systems and robotic assistants.
 
-## Dependencies
+## Download Data
+
+### Option 1: Direct download for academic use
+
+Please follow the link below to request acess to the dataset. You will be asked to request access using an academic email account. You can ignore the remainder of the installation instructions below afterwards if you choose this option. 
+
+[Request access](https://huggingface.co/datasets/amirbar1/egopet)
+
+### Option 2: Download videos from TikTok and YouTube 
+
+#### Dependencies
 
 Ensure you have the following dependencies installed before running the code:
 
@@ -26,17 +36,6 @@ pip install yt-dlp
 pip install -r requirements.txt
 git clone https://github.com/ytdl-org/youtube-dl.git
 ```
-
-## Download Data
-
-### Option 1: Direct download for academic use
-
-Please follow the link below to fill out the Google form to request acess to the dataset. You can ignore the remainder of the installation instructions below afterwards if you choose this option. 
-
-[Request access](https://docs.google.com/forms/d/e/1FAIpQLSdWdutL6VwkFTmoRanpry24ssZicr1ROvyY8rduLWJuPF6-2Q/viewform?usp=pp_url)
-
-### Option 2: Download videos from TikTok and YouTube 
-
 To download and prepare the EgoPet Dataset, follow these steps:
 
 1. Install all dependencies from previous section 
