@@ -15,7 +15,7 @@ Please follow the link below to request acess to the dataset. You will be asked 
 
 [Request access](https://huggingface.co/datasets/amirbar1/egopet)
 
-### Option 2: Download videos from TikTok and YouTube 
+### Option 2: Download videos from TikTok and YouTube (Work in progress)
 
 #### Dependencies
 
