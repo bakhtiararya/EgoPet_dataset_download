@@ -9,7 +9,7 @@ Animals perceive the world to plan their actions and interact with other agents 
 
 ## Download Data
 
-### Option 1: Direct download for academic use
+### Option 1: Direct download (non commercial use)
 
 Please follow the link below to request acess to the dataset. You will be asked to request access using an academic email account. You can ignore the remainder of the installation instructions below afterwards if you choose this option. 
 
