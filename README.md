@@ -9,50 +9,19 @@ Animals perceive the world to plan their actions and interact with other agents 
 
 ## Download Data
 
-### Option 1: Direct download (non commercial use)
+### Direct download
 
-Please follow the link below to request acess to the dataset. You will be asked to request access using an academic email account. You can ignore the remainder of the installation instructions below afterwards if you choose this option. 
+Please follow the link below to request acess to the dataset. You will be asked to confirm you use the dataset for non commercial use.
 
 [Request access](https://huggingface.co/datasets/amirbar1/egopet)
-
-### Option 2: Download videos from TikTok and YouTube (Work in progress)
-
-#### Dependencies
-
-Ensure you have the following dependencies installed before running the code:
-
-- Python 3.9
-- ffmpeg (for video processing)
-- yt-dlp (a youtube-dl fork for downloading videos)
-- Additional Python packages as listed in `requirements.txt`
-
-1. Install Python 3.9.
-2. Install ffmpeg: `sudo apt-get install ffmpeg`
-3. Install yt-dlp
-4. Install required Python packages from `requirements.txt`.
-
-```
-pip install yt-dlp
-pip install -r requirements.txt
-git clone https://github.com/ytdl-org/youtube-dl.git
-```
-To download and prepare the EgoPet Dataset, follow these steps:
-
-1. Install all dependencies from previous section 
-2. Clone this repository  
-3. Run the following command in the terminal. This process may take awhile (> 3 hours)
-
-```
-python download_egopet_datatset.py
-```
 
 ## Example Structure 
 
 ### Input
 
-The dataset processing scripts require an input Excel spreadsheet (`egopet_dataset_spreadsheet.xlsx`) containing video details such as URLs, availability, and segment information.
+The Excel spreadsheet (`egopet_dataset_spreadsheet.xlsx`) containing video details such as URLs, availability, and segment information.
 
-### Output format
+### Dataset format
 
 Processed videos are saved in the `edited_downloaded_videos` directory, with each video file prefixed with "edited_" in its filename. By the end, the folder structure should look like something below
 
